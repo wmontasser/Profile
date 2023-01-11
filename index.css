@@ -401,15 +401,25 @@ form textarea {
   height: 200px;
 }
 
-.contact-button {
+.cv-button {
   width: 160px;
   cursor: pointer;
-  background: #2768d9;
+  background: red;
   color: #fff;
-  justify-content: center;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-left: 35%;
+  margin-top: 20px;
+  width: 50%;
+  border-radius: 100px;
+  border: 5px solid red;
+  outline: none;
+}
+
+.cv-link{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .contact-button:hover {
@@ -586,7 +596,5 @@ form textarea {
     width: 300px;
   }
 
-  .contact-button {
-    margin-left: 25%;
-  }
+
 }
